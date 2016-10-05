@@ -11,7 +11,6 @@
     "bamboo": "node node_modules/mocha/bin/mocha -R mocha-bamboo-reporter",
     "integration:test": "(cd ../client; npm run-script integration:setup; npm run-script integration:test) 2> /dev/null",
     "update": "git pull && rm -rf node_modules && npm install"
-
   },
   "author": "NextGear Capital",
   "license": "Apache-2.0",
@@ -26,13 +25,14 @@
     "glob": "^7.0.0",
     "lodash": "^4.5.0",
     "moment": "^2.10.6",
+    "nitrodata_alps_adaptor": "^0.1.0",
+    "nitrodata_client": "^0.6.0",
+    "nitrodata_mssql_adaptor": "^0.6.2",
     "pluralize": "^1.2.1",
     "sprintf-js": "^1.0.3",
     "swig": "^1.4.2",
     "tar": "^2.2.1",
-    "winston": "^2.1.1",
-    "nitrodata_mssql_adaptor": "^0.6.2",
-    "nitrodata_alps_adaptor": "^0.1.0"
+    "winston": "^2.1.1"
   },
   "devDependencies": {
     "chai": "^3.2.0",
